@@ -16,7 +16,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.david.name,
     oab: CONTACT.david.oab,
-    photo: '/david.jpg', 
+    photo: '/david.jpeg', 
     role: 'Sócio Sênior',
     description:
       'Com mais de 15 anos de atuação, o Dr. David construiu uma sólida reputação na defesa dos direitos de seus clientes. Especialista em Direito Cível, Trabalhista, Penal, Previdenciário e Direito Militar.',
@@ -27,7 +27,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.matheus.name,
     oab: CONTACT.matheus.oab,
-    photo: '/matheus.jpg', 
+    photo: '/matheus.jpeg', 
     role: 'Advocacia Contemporânea & Digital',
     description:
       'Representando a nova geração da advocacia, o Dr. Matheus une tecnologia e estratégia para entregar agilidade e eficiência. Atuação focada nas áreas Cível e Trabalhista.',
