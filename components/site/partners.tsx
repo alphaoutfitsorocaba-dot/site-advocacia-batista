@@ -16,7 +16,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.david.name,
     oab: CONTACT.david.oab,
-    photoPath: '/david.jpeg', // Corrigido para .jpeg
+    photoPath: '/david.jpeg',
     role: 'Sócio Sênior',
     description:
       'Com mais de 15 anos de atuação, o Dr. David construiu uma sólida reputação na defesa dos direitos de seus clientes. Especialista em Direito Cível, Trabalhista, Penal, Previdenciário e Direito Militar.',
@@ -27,7 +27,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.matheus.name,
     oab: CONTACT.matheus.oab,
-    photoPath: '/matheus.jpeg', // Corrigido para .jpeg
+    photoPath: '/matheus.jpeg',
     role: 'Advocacia Contemporânea & Digital',
     description:
       'Representando a nova geração da advocacia, o Dr. Matheus une tecnologia e estratégia para entregar agilidade e eficiência. Atuação focada nas áreas Cível e Trabalhista.',
@@ -63,7 +63,7 @@ export function Partners() {
                 <img
                   src={p.photoPath}
                   alt={p.name}
-                  className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                  className="h-full w-full object-cover object-[center_20%] transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent sm:bg-gradient-to-r" />
               </div>
