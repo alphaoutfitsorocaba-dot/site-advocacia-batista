@@ -1,14 +1,11 @@
 import Image from 'next/image'
 import { MessageCircle, BadgeCheck } from 'lucide-react'
 import { CONTACT, whatsappLink } from '@/lib/contact'
-// 👇 AQUI MUDAMOS PARA .jpg
-import davidPhoto from '@/public/david.jpg'
-import matheusPhoto from '@/public/matheus.jpg'
 
 type Partner = {
   name: string
   oab: string
-  photo: typeof davidPhoto
+  photo: string
   role: string
   description: string
   tags: string[]
@@ -20,7 +17,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.david.name,
     oab: CONTACT.david.oab,
-    photo: davidPhoto,
+    photo: '/david.jpg', // Puxando direto da pasta public de forma segura
     role: 'Sócio Sênior',
     description:
       'Com mais de 15 anos de atuação, o Dr. David construiu uma sólida reputação na defesa dos direitos de seus clientes. Especialista em Direito Cível, Trabalhista, Penal, Previdenciário e Direito Militar.',
@@ -31,7 +28,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.matheus.name,
     oab: CONTACT.matheus.oab,
-    photo: matheusPhoto,
+    photo: '/matheus.jpg', // Puxando direto da pasta public de forma segura
     role: 'Advocacia Contemporânea & Digital',
     description:
       'Representando a nova geração da advocacia, o Dr. Matheus une tecnologia e estratégia para entregar agilidade e eficiência. Atuação focada nas áreas Cível e Trabalhista.',
@@ -70,7 +67,6 @@ export function Partners() {
                   fill
                   sizes="(max-width: 640px) 100vw, 208px"
                   className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                  placeholder="blur"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent sm:bg-gradient-to-r" />
               </div>
