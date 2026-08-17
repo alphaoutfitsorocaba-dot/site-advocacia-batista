@@ -3,14 +3,14 @@ export const CONTACT = {
   david: {
     name: 'Dr. David Borges Batista',
     oab: 'OAB/SP 355.264',
-    whatsapp: '5515999999999',
+    whatsapp: '5515996740547', // Número real do David atualizado
     whatsappMessage:
       'Olá Dr. David, gostaria de agendar uma consulta com o escritório Borges Batista Advocacia.',
   },
   matheus: {
     name: 'Dr. Matheus Willy Batista',
     oab: 'OAB/SP 549.939',
-    whatsapp: '5515988888888',
+    whatsapp: '5515981642572', // Número real do Matheus atualizado
     whatsappMessage:
       'Olá Dr. Matheus, gostaria de agendar uma consulta com o escritório Borges Batista Advocacia.',
   },
