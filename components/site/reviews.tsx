@@ -1,7 +1,7 @@
 import { Star, ExternalLink, Quote } from 'lucide-react'
 
-// Substitua pelo link real do seu perfil de avaliações no Google Meu Negócio / Maps
-const GOOGLE_REVIEWS_LINK = 'https://maps.google.com/?q=Sua+Localizacao+Aqui' 
+// Link oficial da Advocacia Borges Batista no Google Maps/Avaliações
+const GOOGLE_REVIEWS_LINK = 'https://www.google.com/search?sca_esv=3a75f9ad15a7c092&rlz=1CDGOYI_enBR1129BR1182&hl=pt&sxsrf=APpeQnvPuNBKdwz8BdB6FBJ99ZS6DKhGXQ:1787000414326&kgmid=/g/11nv12n7py&q=Advocacia+Borges+Batista&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/act/m1/3&kgs=27e5e9d8d14c8fe3&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/act/m1/3'
 
 const testimonials = [
   {
@@ -63,7 +63,7 @@ export function Reviews() {
           ))}
         </div>
 
-        {/* Link direto institucional para as avaliações do Google */}
+        {/* Botão direcionando para o Google da Advocacia Borges Batista */}
         <div className="mt-12 text-center">
           <a
             href={GOOGLE_REVIEWS_LINK}
