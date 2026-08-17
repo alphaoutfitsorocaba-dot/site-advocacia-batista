@@ -31,7 +31,7 @@ const areas: Area[] = [
     icon: Scale,
     title: 'Direito Cível & Família',
     description:
-      'Resolução de conflitos patrimoniais e familiares com sensibilidade e firmeza técnica, sempre buscando a solução mais rápida e vantajosa.',
+      'Resolução de conflitos patrimoniais e familiares com sensibilidade e firmeza técnica, sempre buscando a melhor resolução legal para o seu caso.',
     topics: [
       'Divórcios, inventários e partilhas',
       'Ações de indenização e danos morais',
