@@ -12,7 +12,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Logo />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Tradição de mais de 15 anos aliada à agilidade da advocacia moderna. Sorocaba/SP e
+              Tradição de mais de 12 anos aliada à agilidade da advocacia moderna. Sorocaba/SP e
               atendimento digital em todo o Brasil.
             </p>
           </div>
