@@ -68,9 +68,10 @@ export function Hero() {
             <div className="flex items-center justify-center gap-3 pt-4 sm:pl-6 sm:pt-0">
               <ShieldCheck className="size-7 shrink-0 text-gold" />
               <div className="text-left">
-                <p className="font-serif text-2xl font-semibold text-foreground">Alta Taxa</p>
+                {/* 👇 AQUI REMOVEMOS A "ALTA TAXA DE SUCESSO" PARA FICAR LEGAL NA OAB */}
+                <p className="font-serif text-2xl font-semibold text-foreground">Atuação</p>
                 <p className="text-sm text-muted-foreground">
-                  de sucesso e êxito em causas judiciais
+                  Estratégica em causas judiciais e consultivas
                 </p>
               </div>
             </div>
