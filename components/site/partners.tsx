@@ -19,7 +19,7 @@ const partners: Partner[] = [
     photoPath: '/david.jpeg',
     role: 'Sócio Sênior',
     description:
-      'Com mais de 15 anos de atuação, o Dr. David construiu uma sólida reputação na defesa dos direitos de seus clientes. Especialista em Direito Cível, Trabalhista, Penal, Previdenciário e Direito Militar.',
+      'Com mais de 12 anos de atuação, o Dr. David construiu uma sólida reputação na defesa dos direitos de seus clientes. Especialista em Direito Cível, Trabalhista, Penal, Previdenciário e Direito Militar.',
     tags: ['Cível', 'Trabalhista', 'Penal', 'Previdenciário', 'Direito Militar (Exclusivo)'],
     whatsapp: CONTACT.david.whatsapp,
     message: CONTACT.david.whatsappMessage,
