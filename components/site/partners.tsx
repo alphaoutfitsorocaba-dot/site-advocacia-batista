@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import { MessageCircle, BadgeCheck } from 'lucide-react'
 import { CONTACT, whatsappLink } from '@/lib/contact'
-import davidPhoto from '@/public/david.png'
-import matheusPhoto from '@/public/matheus.png'
+// 👇 AQUI MUDAMOS PARA .jpg
+import davidPhoto from '@/public/david.jpg'
+import matheusPhoto from '@/public/matheus.jpg'
 
 type Partner = {
   name: string
@@ -52,7 +53,7 @@ export function Partners() {
             Nossos Sócios
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
-            Advogados dedicados, éticos e comprometidos com o resultado de cada causa.
+            Advogados dedicados, éticos e comprometidos com a excelência em cada causa.
           </p>
         </div>
 
