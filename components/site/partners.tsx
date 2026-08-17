@@ -4,7 +4,7 @@ import { CONTACT, whatsappLink } from '@/lib/contact'
 type Partner = {
   name: string
   oab: string
-  photo: string
+  photoPath: string
   role: string
   description: string
   tags: string[]
@@ -16,7 +16,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.david.name,
     oab: CONTACT.david.oab,
-    photo: '/david.jpeg', 
+    photoPath: '/david.jpeg', // Corrigido para .jpeg
     role: 'Sócio Sênior',
     description:
       'Com mais de 15 anos de atuação, o Dr. David construiu uma sólida reputação na defesa dos direitos de seus clientes. Especialista em Direito Cível, Trabalhista, Penal, Previdenciário e Direito Militar.',
@@ -27,7 +27,7 @@ const partners: Partner[] = [
   {
     name: CONTACT.matheus.name,
     oab: CONTACT.matheus.oab,
-    photo: '/matheus.jpeg', 
+    photoPath: '/matheus.jpeg', // Corrigido para .jpeg
     role: 'Advocacia Contemporânea & Digital',
     description:
       'Representando a nova geração da advocacia, o Dr. Matheus une tecnologia e estratégia para entregar agilidade e eficiência. Atuação focada nas áreas Cível e Trabalhista.',
@@ -61,8 +61,8 @@ export function Partners() {
             >
               <div className="relative h-72 w-full shrink-0 overflow-hidden sm:h-auto sm:w-52">
                 <img
-                  src={p.photo}
-                  alt={`Retrato de ${p.name}`}
+                  src={p.photoPath}
+                  alt={p.name}
                   className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent sm:bg-gradient-to-r" />
@@ -98,7 +98,7 @@ export function Partners() {
                   className="mt-6 inline-flex items-center justify-center gap-2 rounded-full border border-gold/50 bg-gold/10 px-5 py-3 text-sm font-semibold text-gold transition-colors hover:bg-gold hover:text-primary-foreground"
                 >
                   <MessageCircle className="size-4" />
-                  Falar com {p.name.split(' ')[0]} {p.name.split(' ')[1]}
+                  Falar com {p.name.split(' ')[0]}
                 </a>
               </div>
             </article>
