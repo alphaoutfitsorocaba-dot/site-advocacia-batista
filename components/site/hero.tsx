@@ -27,7 +27,7 @@ export function Hero() {
 
         {/* Título */}
         <h1 className="mt-8 font-serif text-4xl font-medium leading-[1.1] tracking-tight text-balance sm:text-6xl">
-          <span className="text-gold">Tradição de +15 Anos</span> com a Agilidade da{' '}
+          <span className="text-gold">Tradição de +12 Anos</span> com a Agilidade da{' '}
           <span className="italic">Advocacia Moderna</span>
         </h1>
 
